@@ -1,0 +1,6 @@
+framework module Pods_wgPersonPrefenceKit_Tests {
+  umbrella header "Pods-wgPersonPrefenceKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "wgPersonPrefenceKit",
+  "version": "1",
+  "summary": "A short description of wgPersonPrefenceKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wgModularization/wgPersonPrefenceKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanggang1128": "978159546@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wgModularization/wgPersonPrefenceKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "wgPersonPrefenceKit/Classes/**/*"
+}

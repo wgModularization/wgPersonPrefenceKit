@@ -1,0 +1,6 @@
+framework module wgPersonPrefenceKit {
+  umbrella header "wgPersonPrefenceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

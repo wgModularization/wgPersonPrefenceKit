@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036E1F3B22F286C829F7638C82B030A8 /* WGPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078ED606306B266B57F795A1D2E9D881 /* WGPersonPreferenceViewController.m */; };
+		07A820D147851F4C52B3C7EB4D74DF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		094C2F9AC77C12E6B3DA6CD42EE591AE /* Target_WGPersonPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EFB66128146D0DFE73BE9E715A570F /* Target_WGPersonPreferenceViewController.m */; };
+		250E7EED79543544F03C175B235D3C6F /* Pods-wgPersonPrefenceKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AEE49140CF50F5A1717FE405334BA9 /* Pods-wgPersonPrefenceKit_Tests-dummy.m */; };
+		4B68C07578235FE335C0375644444E18 /* Target_WGPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A369570A066000BFCFB4849BB04ED02B /* Target_WGPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B19446F608CF204F8F6B40BE769556B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9BEE6E177107618C555BACC8836F51E3 /* wgPersonPrefenceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B4F3CD57AF3BB2A40D638BF7065595 /* wgPersonPrefenceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4DBF5077C950F76A2723485558289D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A71A8CBC4787673E8180B599683905C /* ReplaceMe.m */; };
+		C5735AC8137825CAAD82D8683AB1E25D /* Pods-wgPersonPrefenceKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 241FE4EB9C9A88A30EDE319AF46BCE8E /* Pods-wgPersonPrefenceKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90D1E7CE309A6D1AF34E81C0E75B623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CECE5791E74682E3EDB0A1893FDEA22B /* WGPersonPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF5203AA8535008E5EB514FA703C8BA /* WGPersonPreferenceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD183C53BD7F5188DD1D93B88B2786F7 /* Pods-wgPersonPrefenceKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9145FFA54622C6003759F3EDDC6304C5 /* Pods-wgPersonPrefenceKit_Example-dummy.m */; };
+		E230E5B6653FA95F95C34B31BF5D866F /* wgPersonPrefenceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D7912FBBE74FF58E507D148A7E68FE /* wgPersonPrefenceKit-dummy.m */; };
+		F11D28EB472A9F842E6140104AADB149 /* Pods-wgPersonPrefenceKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903B07497DA3B3A1812CCBC25D672F69 /* Pods-wgPersonPrefenceKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF685CCBBA912543B681AF41210E797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8013003B2935F91C506122156078101D;
+			remoteInfo = wgPersonPrefenceKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078ED606306B266B57F795A1D2E9D881 /* WGPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WGPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		0819B149AD79C8AE07D9B743ABAB42FC /* Pods-wgPersonPrefenceKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefenceKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0DE9028BC3F90ABD5661801A3B77AE5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B4F3CD57AF3BB2A40D638BF7065595 /* wgPersonPrefenceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonPrefenceKit-umbrella.h"; sourceTree = "<group>"; };
+		12F2612F8C17C2A71BEC9CFF5861A23E /* Pods-wgPersonPrefenceKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wgPersonPrefenceKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1B8BCF3350770D2CE7C0BB4A0ED8C556 /* Pods-wgPersonPrefenceKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wgPersonPrefenceKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22B67A119224953233A402289B4653D7 /* Pods-wgPersonPrefenceKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wgPersonPrefenceKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		241FE4EB9C9A88A30EDE319AF46BCE8E /* Pods-wgPersonPrefenceKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wgPersonPrefenceKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		25321B32DAADCCF3ABD6B548F1824F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD3734AFB1D7F608C37BDBC97170D9F /* wgPersonPrefenceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wgPersonPrefenceKit-prefix.pch"; sourceTree = "<group>"; };
+		40DABF21FDD7CDA1D15956C92640AC08 /* Pods_wgPersonPrefenceKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wgPersonPrefenceKit_Example.framework; path = "Pods-wgPersonPrefenceKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FD654F0AEF89C52DBF841AFB9CF087 /* Pods-wgPersonPrefenceKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefenceKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		488177F762A72ECAAF849357CD2B2D08 /* Pods-wgPersonPrefenceKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-wgPersonPrefenceKit_Tests.modulemap"; sourceTree = "<group>"; };
+		4DCB1F1D628F071A70532414B7318B49 /* Pods-wgPersonPrefenceKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wgPersonPrefenceKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		4FE9385D4D0144F5470D999C1E22D6B7 /* Pods-wgPersonPrefenceKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefenceKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5081A5AD72C7BEB3B4B1151FA05E4E99 /* wgPersonPrefenceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = wgPersonPrefenceKit.modulemap; sourceTree = "<group>"; };
+		51AEE49140CF50F5A1717FE405334BA9 /* Pods-wgPersonPrefenceKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wgPersonPrefenceKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		5778FBB4E5E7C0297390E1172C947553 /* Pods-wgPersonPrefenceKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wgPersonPrefenceKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5999B45EB49289472AB9088DBB391994 /* Pods-wgPersonPrefenceKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wgPersonPrefenceKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76E96F70B931F8D27B8A532FF9406B50 /* wgPersonPrefenceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = wgPersonPrefenceKit.xcconfig; sourceTree = "<group>"; };
+		7A71A8CBC4787673E8180B599683905C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = wgPersonPrefenceKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7EB59C91BDAF236A8BADEA17A4E9891C /* Pods-wgPersonPrefenceKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wgPersonPrefenceKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF9025BC80C0E16F451F2B047A3DCC6 /* Pods-wgPersonPrefenceKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wgPersonPrefenceKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8EF5203AA8535008E5EB514FA703C8BA /* WGPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WGPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		903B07497DA3B3A1812CCBC25D672F69 /* Pods-wgPersonPrefenceKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wgPersonPrefenceKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		9145FFA54622C6003759F3EDDC6304C5 /* Pods-wgPersonPrefenceKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wgPersonPrefenceKit_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21B3C4FD125231E3C369560A1BD4F80 /* Pods_wgPersonPrefenceKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_wgPersonPrefenceKit_Tests.framework; path = "Pods-wgPersonPrefenceKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A369570A066000BFCFB4849BB04ED02B /* Target_WGPersonPreferenceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_WGPersonPreferenceViewController.h; sourceTree = "<group>"; };
+		B1EFB66128146D0DFE73BE9E715A570F /* Target_WGPersonPreferenceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_WGPersonPreferenceViewController.m; sourceTree = "<group>"; };
+		B3CDDD5B4829FC44B045C530DABF2BFC /* Pods-wgPersonPrefenceKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-wgPersonPrefenceKit_Example.modulemap"; sourceTree = "<group>"; };
+		C4D7912FBBE74FF58E507D148A7E68FE /* wgPersonPrefenceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "wgPersonPrefenceKit-dummy.m"; sourceTree = "<group>"; };
+		D8D31D735AE91D1F3D11B71CA4B9649B /* wgPersonPrefenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = wgPersonPrefenceKit.framework; path = wgPersonPrefenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F234013A5E1846589BF504BA39D0C59C /* Pods-wgPersonPrefenceKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wgPersonPrefenceKit_Example-resources.sh"; sourceTree = "<group>"; };
+		F9BD30D7B652514F4A8DD9FE53557F5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6156A127736D7E1EDEA9E2C95E882286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90D1E7CE309A6D1AF34E81C0E75B623 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD6CE078FE5FE15387973F9E7032F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A820D147851F4C52B3C7EB4D74DF72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1AD1850EE4554D9D8A4DDE7D5A1E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B19446F608CF204F8F6B40BE769556B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BA4014BFAF3CE72E0EEFB2915FC27C1D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D2F33FAC35A3B1C30CDBA55002D4F72E /* Products */,
+				AAE0E004267BB0B8ACC4F4A6B5E34145 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85A457ED6E42A665C95078BB8694B933 /* Pods-wgPersonPrefenceKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BD30D7B652514F4A8DD9FE53557F5C /* Info.plist */,
+				488177F762A72ECAAF849357CD2B2D08 /* Pods-wgPersonPrefenceKit_Tests.modulemap */,
+				1B8BCF3350770D2CE7C0BB4A0ED8C556 /* Pods-wgPersonPrefenceKit_Tests-acknowledgements.markdown */,
+				5999B45EB49289472AB9088DBB391994 /* Pods-wgPersonPrefenceKit_Tests-acknowledgements.plist */,
+				51AEE49140CF50F5A1717FE405334BA9 /* Pods-wgPersonPrefenceKit_Tests-dummy.m */,
+				12F2612F8C17C2A71BEC9CFF5861A23E /* Pods-wgPersonPrefenceKit_Tests-frameworks.sh */,
+				4DCB1F1D628F071A70532414B7318B49 /* Pods-wgPersonPrefenceKit_Tests-resources.sh */,
+				241FE4EB9C9A88A30EDE319AF46BCE8E /* Pods-wgPersonPrefenceKit_Tests-umbrella.h */,
+				7EB59C91BDAF236A8BADEA17A4E9891C /* Pods-wgPersonPrefenceKit_Tests.debug.xcconfig */,
+				44FD654F0AEF89C52DBF841AFB9CF087 /* Pods-wgPersonPrefenceKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-wgPersonPrefenceKit_Tests";
+			path = "Target Support Files/Pods-wgPersonPrefenceKit_Tests";
+			sourceTree = "<group>";
+		};
+		8EB527701680A1DA4C01F9F549B0FA30 /* TAPersonPrefrence */ = {
+			isa = PBXGroup;
+			children = (
+				A369570A066000BFCFB4849BB04ED02B /* Target_WGPersonPreferenceViewController.h */,
+				B1EFB66128146D0DFE73BE9E715A570F /* Target_WGPersonPreferenceViewController.m */,
+				8EF5203AA8535008E5EB514FA703C8BA /* WGPersonPreferenceViewController.h */,
+				078ED606306B266B57F795A1D2E9D881 /* WGPersonPreferenceViewController.m */,
+			);
+			name = TAPersonPrefrence;
+			path = wgPersonPrefenceKit/Classes/TAPersonPrefrence;
+			sourceTree = "<group>";
+		};
+		A1C35D105DE8B6F1BC82B58CBC423A8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25321B32DAADCCF3ABD6B548F1824F08 /* Info.plist */,
+				5081A5AD72C7BEB3B4B1151FA05E4E99 /* wgPersonPrefenceKit.modulemap */,
+				76E96F70B931F8D27B8A532FF9406B50 /* wgPersonPrefenceKit.xcconfig */,
+				C4D7912FBBE74FF58E507D148A7E68FE /* wgPersonPrefenceKit-dummy.m */,
+				2FD3734AFB1D7F608C37BDBC97170D9F /* wgPersonPrefenceKit-prefix.pch */,
+				11B4F3CD57AF3BB2A40D638BF7065595 /* wgPersonPrefenceKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/wgPersonPrefenceKit";
+			sourceTree = "<group>";
+		};
+		AACA732BC3A036348AF5D986035CF858 /* wgPersonPrefenceKit */ = {
+			isa = PBXGroup;
+			children = (
+				7A71A8CBC4787673E8180B599683905C /* ReplaceMe.m */,
+				A1C35D105DE8B6F1BC82B58CBC423A8E /* Support Files */,
+				8EB527701680A1DA4C01F9F549B0FA30 /* TAPersonPrefrence */,
+			);
+			name = wgPersonPrefenceKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AAE0E004267BB0B8ACC4F4A6B5E34145 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99B08F3B25EDCA23C4DA4A9E613A9F2 /* Pods-wgPersonPrefenceKit_Example */,
+				85A457ED6E42A665C95078BB8694B933 /* Pods-wgPersonPrefenceKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B99B08F3B25EDCA23C4DA4A9E613A9F2 /* Pods-wgPersonPrefenceKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0DE9028BC3F90ABD5661801A3B77AE5F /* Info.plist */,
+				B3CDDD5B4829FC44B045C530DABF2BFC /* Pods-wgPersonPrefenceKit_Example.modulemap */,
+				22B67A119224953233A402289B4653D7 /* Pods-wgPersonPrefenceKit_Example-acknowledgements.markdown */,
+				5778FBB4E5E7C0297390E1172C947553 /* Pods-wgPersonPrefenceKit_Example-acknowledgements.plist */,
+				9145FFA54622C6003759F3EDDC6304C5 /* Pods-wgPersonPrefenceKit_Example-dummy.m */,
+				8BF9025BC80C0E16F451F2B047A3DCC6 /* Pods-wgPersonPrefenceKit_Example-frameworks.sh */,
+				F234013A5E1846589BF504BA39D0C59C /* Pods-wgPersonPrefenceKit_Example-resources.sh */,
+				903B07497DA3B3A1812CCBC25D672F69 /* Pods-wgPersonPrefenceKit_Example-umbrella.h */,
+				0819B149AD79C8AE07D9B743ABAB42FC /* Pods-wgPersonPrefenceKit_Example.debug.xcconfig */,
+				4FE9385D4D0144F5470D999C1E22D6B7 /* Pods-wgPersonPrefenceKit_Example.release.xcconfig */,
+			);
+			name = "Pods-wgPersonPrefenceKit_Example";
+			path = "Target Support Files/Pods-wgPersonPrefenceKit_Example";
+			sourceTree = "<group>";
+		};
+		BA4014BFAF3CE72E0EEFB2915FC27C1D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AACA732BC3A036348AF5D986035CF858 /* wgPersonPrefenceKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F33FAC35A3B1C30CDBA55002D4F72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DABF21FDD7CDA1D15956C92640AC08 /* Pods_wgPersonPrefenceKit_Example.framework */,
+				A21B3C4FD125231E3C369560A1BD4F80 /* Pods_wgPersonPrefenceKit_Tests.framework */,
+				D8D31D735AE91D1F3D11B71CA4B9649B /* wgPersonPrefenceKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16FBB587F8C2D7ABD5B715CC885DD6A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B68C07578235FE335C0375644444E18 /* Target_WGPersonPreferenceViewController.h in Headers */,
+				9BEE6E177107618C555BACC8836F51E3 /* wgPersonPrefenceKit-umbrella.h in Headers */,
+				CECE5791E74682E3EDB0A1893FDEA22B /* WGPersonPreferenceViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D8425AB536A4422863FA659167112 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11D28EB472A9F842E6140104AADB149 /* Pods-wgPersonPrefenceKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579D97C0FC9D04784EB762203ACE4413 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5735AC8137825CAAD82D8683AB1E25D /* Pods-wgPersonPrefenceKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10C9EE29AA17F4096F7D0807877EA599 /* Pods-wgPersonPrefenceKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19DE53263A3974160E1BC1BC47C192F /* Build configuration list for PBXNativeTarget "Pods-wgPersonPrefenceKit_Example" */;
+			buildPhases = (
+				4E5853726C6654A71695BDCEA8B338EA /* Sources */,
+				8E1AD1850EE4554D9D8A4DDE7D5A1E18 /* Frameworks */,
+				2B7D8425AB536A4422863FA659167112 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBAD229990D0A643399C2B1912EE9B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-wgPersonPrefenceKit_Example";
+			productName = "Pods-wgPersonPrefenceKit_Example";
+			productReference = 40DABF21FDD7CDA1D15956C92640AC08 /* Pods_wgPersonPrefenceKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8013003B2935F91C506122156078101D /* wgPersonPrefenceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFB31DC7E83505847C9174C97AF8EC4 /* Build configuration list for PBXNativeTarget "wgPersonPrefenceKit" */;
+			buildPhases = (
+				11E225DBFCB69CF5BBA153E1B62CBAEF /* Sources */,
+				7DD6CE078FE5FE15387973F9E7032F6A /* Frameworks */,
+				16FBB587F8C2D7ABD5B715CC885DD6A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wgPersonPrefenceKit;
+			productName = wgPersonPrefenceKit;
+			productReference = D8D31D735AE91D1F3D11B71CA4B9649B /* wgPersonPrefenceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9234C12B0B3CB848819718C58FAD3DFE /* Pods-wgPersonPrefenceKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F21CBDE0C42112E37845B718BA7909 /* Build configuration list for PBXNativeTarget "Pods-wgPersonPrefenceKit_Tests" */;
+			buildPhases = (
+				5DBB848533B5B0C264A9C33E20F9BF18 /* Sources */,
+				6156A127736D7E1EDEA9E2C95E882286 /* Frameworks */,
+				579D97C0FC9D04784EB762203ACE4413 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wgPersonPrefenceKit_Tests";
+			productName = "Pods-wgPersonPrefenceKit_Tests";
+			productReference = A21B3C4FD125231E3C369560A1BD4F80 /* Pods_wgPersonPrefenceKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D2F33FAC35A3B1C30CDBA55002D4F72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C9EE29AA17F4096F7D0807877EA599 /* Pods-wgPersonPrefenceKit_Example */,
+				9234C12B0B3CB848819718C58FAD3DFE /* Pods-wgPersonPrefenceKit_Tests */,
+				8013003B2935F91C506122156078101D /* wgPersonPrefenceKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E225DBFCB69CF5BBA153E1B62CBAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DBF5077C950F76A2723485558289D /* ReplaceMe.m in Sources */,
+				094C2F9AC77C12E6B3DA6CD42EE591AE /* Target_WGPersonPreferenceViewController.m in Sources */,
+				E230E5B6653FA95F95C34B31BF5D866F /* wgPersonPrefenceKit-dummy.m in Sources */,
+				036E1F3B22F286C829F7638C82B030A8 /* WGPersonPreferenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5853726C6654A71695BDCEA8B338EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD183C53BD7F5188DD1D93B88B2786F7 /* Pods-wgPersonPrefenceKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBB848533B5B0C264A9C33E20F9BF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250E7EED79543544F03C175B235D3C6F /* Pods-wgPersonPrefenceKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBAD229990D0A643399C2B1912EE9B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = wgPersonPrefenceKit;
+			target = 8013003B2935F91C506122156078101D /* wgPersonPrefenceKit */;
+			targetProxy = BEF685CCBBA912543B681AF41210E797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21D0C2D404BEA9D6F0D5C941E786D73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB59C91BDAF236A8BADEA17A4E9891C /* Pods-wgPersonPrefenceKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Tests/Pods-wgPersonPrefenceKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wgPersonPrefenceKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F6603F885487AF7E133E355CE5E5A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FD654F0AEF89C52DBF841AFB9CF087 /* Pods-wgPersonPrefenceKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Tests/Pods-wgPersonPrefenceKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wgPersonPrefenceKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F92B37BBA1205DDEA491F531923584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E96F70B931F8D27B8A532FF9406B50 /* wgPersonPrefenceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonPrefenceKit/wgPersonPrefenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wgPersonPrefenceKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wgPersonPrefenceKit/wgPersonPrefenceKit.modulemap";
+				PRODUCT_NAME = wgPersonPrefenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40166B6F92911CBF246C908D4B742A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE9385D4D0144F5470D999C1E22D6B7 /* Pods-wgPersonPrefenceKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Example/Pods-wgPersonPrefenceKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wgPersonPrefenceKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B445F0BF80604F58044C58B4F0DFD666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0819B149AD79C8AE07D9B743ABAB42FC /* Pods-wgPersonPrefenceKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-wgPersonPrefenceKit_Example/Pods-wgPersonPrefenceKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_wgPersonPrefenceKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5ED94590B456AF6C89AF32826EEA219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E96F70B931F8D27B8A532FF9406B50 /* wgPersonPrefenceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/wgPersonPrefenceKit/wgPersonPrefenceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/wgPersonPrefenceKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/wgPersonPrefenceKit/wgPersonPrefenceKit.modulemap";
+				PRODUCT_NAME = wgPersonPrefenceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFB31DC7E83505847C9174C97AF8EC4 /* Build configuration list for PBXNativeTarget "wgPersonPrefenceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5ED94590B456AF6C89AF32826EEA219 /* Debug */,
+				3F92B37BBA1205DDEA491F531923584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19DE53263A3974160E1BC1BC47C192F /* Build configuration list for PBXNativeTarget "Pods-wgPersonPrefenceKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B445F0BF80604F58044C58B4F0DFD666 /* Debug */,
+				40166B6F92911CBF246C908D4B742A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F21CBDE0C42112E37845B718BA7909 /* Build configuration list for PBXNativeTarget "Pods-wgPersonPrefenceKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D0C2D404BEA9D6F0D5C941E786D73A /* Debug */,
+				2F6603F885487AF7E133E355CE5E5A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
