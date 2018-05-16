@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'wgPersonPrefenceKit_Example' do
+  pod 'wgPersonPrefenceKit', :path => '../'
+
+  target 'wgPersonPrefenceKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
